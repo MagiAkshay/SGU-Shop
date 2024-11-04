@@ -1,0 +1,144 @@
+/* Default styles for the navbar */
+.btn-menu-div {
+    background-color: #232f3f;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 10px; /* Add padding for spacing */
+    width: 100%; /* Ensure full width */
+    position: relative; /* Default position */
+    transition: top 80.9s ease-in-out, box-shadow 0.6s ease-in-out; /* Slower transition for position and shadow */
+}
+
+/* Fixed position when scrolling */
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure it stays above other content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
+}
+
+/* Other styles remain the same */
+.img-menu {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.btn-menu {
+    background-color: rgb(255, 115, 0);
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.model-move {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 320px;
+}
+
+.modal-length {
+    width: 100%;
+}
+
+.madal-btn-style {
+    text-align: left;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.exact-madal {
+    text-align: left;
+}
+
+.less-then {
+    font-size: larger;
+    font-weight: 600;
+}
+
+.model-move-one {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 320px;
+}
+
+.anchor {
+    color: lightcyan;
+    text-decoration: none;
+}
+
+.active {
+    color: black;
+}
+
+.nav-items-anchor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.line-items {
+    margin-left: 20px;
+}
+
+.bell-icons {
+    width: 20px;
+    height: 20px;
+}
+
+.bell-icons-div {
+    display: flex;
+    align-items: center;
+    border-left: 1px solid black;
+    padding-left: 20px;
+    margin-left: 210px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.span-bell-text {
+    color: white;
+    margin-left: 10px;
+    font-weight: 200;
+}
+
+.dot-remove {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.home-move-modal {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.content-length {
+    width: 100%;
+    background-color: white;
+}
+
+.middleMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}

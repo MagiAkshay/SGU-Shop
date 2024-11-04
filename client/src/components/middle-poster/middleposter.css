@@ -1,0 +1,35 @@
+.image-items-headphone1{
+    background: url('https://demo-morata.myshopify.com/cdn/shop/files/2_2.png?v=1700109332&width=2000');
+    background-size: cover;
+    background-position: center;
+    height:250px;
+    width: 50%;
+    margin-top: 20px;
+    color: white;
+  
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 5px;
+   }
+  
+
+   .image-items-wires1{
+    background: url('https://demo-morata.myshopify.com/cdn/shop/files/2_1.png?v=1700109332&width=2000 ');
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    height:250px;
+    width: 50%;
+    
+    color: white;
+    border-radius: 5px;
+   }
+   .image-items-wires1:hover, .image-items-headphone1:hover {
+    overflow: hidden;
+    transition: transform 1s ease; 
+    transform: scale(1.05); /* Zoom in effect */
+}
+
+   .main-div-poster{
+    display: flex;
+   }

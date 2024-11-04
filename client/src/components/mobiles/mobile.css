@@ -1,0 +1,126 @@
+.top-deals{
+    border-bottom: 2px solid #FF7300;
+    
+    font-size: 28px;
+    font-family: sans-serif;
+    
+   
+}
+
+.top-deals-div{
+    border-bottom: 2px solid lightgray;
+    line-height: 23px;
+    margin-left: 10px;
+   
+    margin-top: 50px;
+}
+
+.image-mobile-div {
+    width: 100%; /* Set width to 100% for responsive design */
+    overflow-x: hidden;
+    padding: 20px; /* Apply uniform padding around the container */
+    border: 1px solid rgb(150, 153, 154); /* Light border for better separation */
+    display: flex; /* Enables flexible layout */
+    flex-direction: row; /* Aligns child elements horizontally */
+    justify-content: space-evenly; /* Distributes space evenly between items */
+    align-items: flex-start; /* Aligns items to the top of the container */
+   
+   
+    margin: 10px;
+    background-color: #f9f9f9; /* Subtle background color for contrast */
+   
+}
+
+.image-change-mobile{
+    width: 200px;
+    height: auto;
+}
+
+.btn-mobile{
+    border: 0;
+    background-color: white;
+}
+.heart-icons-mobile{
+    width: 40px;
+    height: 40px;
+    padding: 10px 10px;
+    border-radius: 30px 30px  ;
+    border: 1px solid rgb(123, 120, 120);
+    margin-bottom: 20px;
+
+}
+
+.icon-mobile-div{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.image-icon-div{
+    display: flex;
+}
+
+.mobile-headname{
+    width: 300px;
+}
+
+.moblie-describtion{
+    margin-top: 50px;
+}
+
+.star-icon-moblie{
+    width: 20px;
+    height: 20px;
+}
+
+.timer-div{
+    width: 50px;
+    height: 50px;
+    font-size: large;
+    font-weight: bold;
+    
+    padding-top: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 30px ;
+    background-color: rgb(237, 236, 235);
+    margin-left: 20px;
+}
+.timer-divs-direction{
+    display: flex;
+}
+
+.range-mobile-sold{
+    width: 250px;
+    margin-top: 10px;
+}
+
+.loader {
+    border: 4px solid #f3f3f3; /* Light grey */
+    border-top: 4px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite;
+    margin: 10px auto;
+  }
+
+  .btn-AddCart-moblie-large {
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 40px;
+    background-color: black;
+    color: white; /* Ensure text is visible on black background */
+    border: none; /* Remove border */
+    padding: 10px; /* Add padding for better button size */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.btn-AddCart-moblie-large:hover {
+    background-color: orange; /* Change background color on hover */
+}
+
+  .two-moblie-div{
+    display: flex;
+  }

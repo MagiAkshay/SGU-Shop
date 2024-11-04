@@ -1,0 +1,24 @@
+.image-items-headphone3 {
+    background: url('https://demo-morata.myshopify.com/cdn/shop/files/2_8.png?v=1700194616&width=2000');
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 100%; /* Increased width for the left photo */
+    margin-top: 20px;
+    color: white;
+    margin-right: 10px; /* Adjusted for spacing */
+    margin-left: 15px;
+    border-radius: 5px;
+    transition: transform 1s ease; /* Added transition */
+}
+
+
+.image-items-headphone3:hover{
+    transform: scale(1.05); /* Zoom in effect */
+    overflow: hidden;
+}
+
+.main-div-poster {
+    display: flex;
+    justify-content: space-between; /* Distributes space between items */
+}

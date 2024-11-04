@@ -1,0 +1,167 @@
+.secondHeader-div {
+    background-color: #232f3f;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.logo-div {
+    position: absolute;
+    left: 20px; /* Keeps logo on the left */
+}
+
+.logo-image {
+    height: 60px;
+    width: auto;
+}
+
+.white-search-div {
+    background-color: white;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto; /* Center the search bar */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 0 30px 0 10px; /* Adjust padding for better control */
+    width: 70%; /* Set the width as a percentage or fixed pixel value */
+    max-width: 550px; /* Optional: limit maximum width */
+}
+
+.search-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.select-border {
+    border: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    background-color: #ffffff;
+    border-radius: 25px 0 0 25px;
+    margin: 0;
+}
+.form-border::placeholder {
+    font-size: 14px; /* Adjust the size as needed */
+    color: #a9a9a9; /* Optional: Change the color if desired */
+}
+
+.form-border {
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 0;
+    margin-left: -2px; /* Overlaps slightly to blend */
+    margin-right: 10px;
+}
+
+.btn-search {
+    background-color: #ff9900;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 25px 25px 25px 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 5px;
+    position: relative;
+    right: -25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-search:hover {
+    background-color: #cc7a00;
+}
+
+.btn-search:active {
+    background-color: #b36b00;
+    transform: scale(0.98);
+}
+
+.icons-div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    position: absolute;
+    right: 20px; /* Keeps icons on the right */
+}
+.icons-inner-head .text-style,
+.icons-inner-head .account-style {
+    font-weight: 600; /* Adjust the font-weight as needed */
+}
+.icons-users-head {
+    width: 40px; /* Reduce width */
+    height: 40px; /* Reduce height */
+    /* You can also use max-width and max-height if you want to ensure the icon does not exceed certain dimensions */
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.icons-inner-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icons-users-head {
+    width: 25px;
+    height: 25px;
+}
+
+.btn-Login {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    text-align: left;
+    cursor: pointer;
+}
+
+.text-style {
+    color: #928d8d;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.account-style {
+    color: #f3f2f2;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.favorite-div {
+    margin-top: -5px;
+}
+
+@media (max-width: 768px) {
+    .secondHeader-div {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo-div {
+        position: static;
+        margin-bottom: 10px;
+    }
+
+    .white-search-div {
+        width: 100%;
+        margin: 10px 0;
+        padding: 0 20px; /* Adjust padding for smaller screens */
+    }
+
+    .icons-div {
+        margin: 10px 0;
+        position: static;
+        justify-content: center;
+    }
+}
